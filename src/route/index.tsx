@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "../views/Home";
-import Portfolio from "../views/Portfolio";
-import Skills from "../views/Skills";
-import About from "../views/About";
-import Contact from "../views/Contact";
+import Portfolio from "views/Portfolio";
+import Skills from "views/Skills";
+import About from "views/About";
+import Contact from "views/Contact";
 
 const SiteRouter = () => {
   return (
