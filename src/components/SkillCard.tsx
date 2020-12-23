@@ -52,13 +52,14 @@ const SkillCard = () => {
           background: "#000",
           color: "#fff",
           borderRadius: 35,
+          boxShadow: "3px 3px 25px rgba(97, 218, 251, 0.5)",
         }}
       >
         {data.map((item) => (
           <Grid container style={{ padding: 0, margin: 0 }}>
             <Grid container style={{ marginTop: "2rem" }}>
               <Grid item xs />
-              <Grid item xs={8} style={{ fontSize: "3rem" }}>
+              <Grid item xs={8} style={{ fontSize: "3.5rem" }}>
                 {item.name}
               </Grid>
               <Grid item xs={2}>
