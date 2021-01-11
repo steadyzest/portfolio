@@ -48,7 +48,7 @@ const Home = () => {
                 opacity: 0.5,
               }}
             >
-              Any Desing,
+              Any Design,
             </Box>
             <Box style={BoxWhiteColor}>I can make it!</Box>
           </Box>

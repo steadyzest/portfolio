@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
+import Combine from "../views/Combine";
 import Home from "../views/Home";
 import Portfolio from "views/Portfolio";
 import Skills from "views/Skills";
@@ -12,6 +13,9 @@ const SiteRouter = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
+          <Combine />
+        </Route>
+        {/* <Route exact path="/">
           <Home />
         </Route>
         <Route exact path="/portfolio">
@@ -25,7 +29,7 @@ const SiteRouter = () => {
         </Route>
         <Route exact path="/contact">
           <Contact />
-        </Route>
+        </Route> */}
       </Switch>
     </BrowserRouter>
   );

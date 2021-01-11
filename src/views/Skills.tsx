@@ -6,7 +6,7 @@ import SkillCard from "components/SkillCard";
 const Skills = () => {
   return (
     <Container>
-      스킬
+      <div style={{ color: "white" }}>스킬</div>
       <SkillCard />
     </Container>
   );
