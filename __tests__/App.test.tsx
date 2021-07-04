@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "../src/App";
 
 test("메인페이지 텍스트 포함여부 확인", () => {
   render(<App />);
